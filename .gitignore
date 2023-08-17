@@ -1,0 +1,22 @@
+# Godot-specific ignores
+godot/.import/
+godot/export.cfg
+godot/export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+godot/.mono/
+godot/data_*/
+
+# Added by cargo
+target/*
+Cargo.lock
+
+# Avoids committing binary changes
+godot/lib/doodle_noodle.dll
+godot/lib/libdoodle_noodle_arm64_v8a.so
+
+# Avoids the Godot Android build
+godot/android/build/

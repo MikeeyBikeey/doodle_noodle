@@ -1,0 +1,8 @@
+[gd_resource type="NativeScript" load_steps=2 format=2]
+
+[ext_resource path="res://lib/native_library.gdnlib" type="GDNativeLibrary" id=1]
+
+[resource]
+resource_name = "ImageSearch"
+class_name = "ImageSearch"
+library = ExtResource( 1 )
